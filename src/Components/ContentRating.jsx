@@ -25,13 +25,13 @@ class ContentRating extends Component {
         return (
         <div class='content-rating'>
             <p>
-            --- Add text here ---
+            This is a test of the React enviroment for developing web applications.
             </p>
             <div className='rating-buttons'>
-            <button className='lik-button'>
+            <button className='like-button' onClick={this.state.handleLike}>
                 Like ({this.state.likes})
             </button>
-            <button className='dislike-button'>
+            <button className='dislike-button' onClick={this.state.handleDislike}>
                 Dislike ({this.state.dislikes})
             </button>
             </div>
